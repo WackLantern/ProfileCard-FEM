@@ -1,0 +1,60 @@
+body {
+	background-image: url('images/bg-pattern-top.svg');
+	background-color: hsl(185, 75%, 39%);
+}
+#background {
+	background-image: url('images/bg-pattern-card.svg');
+	padding: 5%;
+	max-width: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	align-self: center;
+	border-radius: 100%;
+}
+
+#profile-image {
+	height: 25%;
+	margin: 5%;
+	border-style: hidden;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	}
+
+
+
+#profile-info {
+	text-align: center;
+}
+
+hr {
+	border-color: hsl(227, 10%, 46%);
+	width: 100%;
+
+}
+
+#profile-stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h2, p {
+	@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+p {
+	font-weight: 400;
+}
